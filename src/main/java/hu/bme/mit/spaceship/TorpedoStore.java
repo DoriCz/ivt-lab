@@ -52,7 +52,11 @@ public class TorpedoStore {
   }
 
   public boolean isEmpty(){
+<<<<<<< HEAD
     return this.torpedoCount == 0;
+=======
+    return this.torpedoCount < 1;
+>>>>>>> branch-B
   }
 
   public int getTorpedoCount() {
